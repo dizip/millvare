@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es2019",
+        "jsx": "preserve",
+        "lib": ["dom", "esnext"],
+        "strict": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "noUnusedLocals": false,
+        "allowJs": true,
+        "noImplicitAny": false,
+        "baseUrl": "src",
+        "strictNullChecks": false
+    },
+    "include": ["custom.d.ts", "src"],
+    "exclude": ["node_modules", "public", ".cache"]
+}
